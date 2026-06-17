@@ -24,7 +24,7 @@ clock = pygame.time.Clock() # Objeto reloj que sirve para controlar el ritmo del
 # ==============================
 
 ejecutando = True # Mientras se ejecute se mostrará el juego
-pantalla_actual = Cocina2() # La pantalla que se muestra al inicio es el Menú
+pantalla_actual = Menu() # La pantalla que se muestra al inicio es el Menú
 
 while ejecutando:
     cambio_tiempo = clock.tick(fps) / 1000.0
